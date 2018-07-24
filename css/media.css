@@ -1,0 +1,202 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.service_container .left h3 {
+		margin-top: 30px;
+	}
+
+	.service_image img {
+		max-width: 450px;
+		margin-top: 60px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.personal_last_block{
+		margin-top: 35px;
+	}
+
+	.service_image img {
+		max-width: 600px;
+		margin-top: 0;
+	}
+
+	.service_container .left{
+		border-right: #d2d2d2 0;
+	}
+
+	.service_container .right{
+		margin-top: 20px;
+	}
+
+	.portfolio_item .port_item_cont {
+		padding-top: 10%;
+	}
+
+	.portfolio_item .port_item_cont:hover {
+		padding-top: 15%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.service_image img {
+	max-width: 430px;
+	}
+
+	.portfolio_item  {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.s_project ul{
+		margin-bottom: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top-wrapper .top-text h1 {
+		font-size: 2em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.service_image img {
+		max-width: 310px;
+	}
+
+	.main_footer .social_wrap {
+		float: right;
+		margin-top: 3px;
+	}
+
+	.main_footer .social_wrap ul {
+	padding-left: 0;
+	}
+
+	.portfolio_item h3 {
+		font-size: 15px;
+	}
+
+	.portfolio_item p {
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+
+	.portfolio_item a {
+		font-size: 15px;
+		padding: 1px 7px;
+	}
+
+	.portfolio_item .port_item_cont {
+		padding-top: 6%;
+	}
+
+	.portfolio_item .port_item_cont:hover {
+		padding-top: 12%;
+	}
+	
+}
+
+@media only screen and (max-width : 360px) {
+	
+	.service_image img {
+		max-width: 250px;
+	}
+
+	svg {
+		height: 40px;
+		width: 140px;
+	}
+
+	.portfolio_item h3 {
+		font-size: 13px;
+	}
+
+	.portfolio_item p {
+		font-size: 11px;
+		margin-bottom: 15px;
+	}
+
+	.portfolio_item a {
+		font-size: 13px;
+		padding: 1px 7px;
+	}
+
+	.portfolio_item .port_item_cont {
+		padding-top: 6%;
+	}
+
+	.portfolio_item .port_item_cont:hover {
+		padding-top: 12%;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+	svg {
+		height: 40px;
+		width: 140px;
+	}
+
+	.service_image img {
+		max-width: 260px;
+	}
+
+	.portfolio_item h3 {
+		font-size: 12px;
+	}
+
+	.portfolio_item p {
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+
+	.portfolio_item a {
+		font-size: 12px;
+		padding: 1px 7px;
+	}
+
+	.portfolio_item .port_item_cont {
+		padding-top: 6%;
+	}
+
+	.portfolio_item .port_item_cont:hover {
+		padding-top: 10%;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
